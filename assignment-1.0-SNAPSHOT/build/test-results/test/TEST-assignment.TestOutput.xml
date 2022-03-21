@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="assignment.TestOutput" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-03-07T05:32:42" hostname="Mehul.local" time="0.056">
+  <properties/>
+  <testcase name="checkNoMatchForRecords" classname="assignment.TestOutput" time="0.043"/>
+  <testcase name="checkFinalAggregatedRecords" classname="assignment.TestOutput" time="0.006"/>
+  <testcase name="checkDuplicateRecords" classname="assignment.TestOutput" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
