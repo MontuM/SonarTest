@@ -23,3 +23,15 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testImplementation 'org.hamcrest:hamcrest:2.2'
 }
+
+plugins {
+  id "org.sonarqube" version "3.3"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "MontuM_SonarTest"
+    property "sonar.organization", "montum"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
